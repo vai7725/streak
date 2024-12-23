@@ -19,7 +19,7 @@ def git_commit_and_push():
     # Run Git commands to add, commit, and push
     os.system("git add .")
     os.system(f'git commit -m "Daily streak update: {datetime.now().strftime("%Y-%m-%d")}"')
-    os.system("git push origin main")  # Replace 'main' with your branch name if necessary
+    os.system("git push origin master")  # Replace 'main' with your branch name if necessary
 
 if __name__ == "__main__":
     # Ensure the text file exists before updating
